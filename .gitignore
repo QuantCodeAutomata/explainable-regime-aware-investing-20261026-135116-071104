@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.eggs/
+*.egg-info/
+dist/
+build/
+.env
+*.env
+.venv/
+venv/
+env/
+
+# Raw market data (never commit API dumps)
+data/prices.csv
+data/*.parquet
+data/*.json
+
+# Large model checkpoints
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Temp
+generate_files.py
+/tmp/
